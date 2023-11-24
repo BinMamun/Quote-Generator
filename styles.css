@@ -37,7 +37,7 @@
 .title::after {
   content: " ";
   display: block;
-  height: 3px;
+  height: 2px;
   width: 80px;
   border-radius: 10px;
   position: absolute;
@@ -73,6 +73,6 @@
   position: absolute;
   bottom: 35%;
   left: -20px;
-  background: rgb(66, 66, 66);
+  background: #6457C6;
   transform: translateX(-50%);
 }
