@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  padding: 10px;
+}
+
+.quote-box {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(66, 66, 66);
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .2);
+}
+
+.title {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.title::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  width: 80px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  background: #6457C6;
+  transform: translateX(-50%);
+}
+
+.quote {
+  font-size: 22px;
+  min-height: 100px;
+}
+
+.quote::before,
+.quote::after {
+  content: '"';
+}
+
+.author {
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  font-weight: 500;
+}
+
+.author::before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 35%;
+  left: -20px;
+  background: rgb(66, 66, 66);
+  transform: translateX(-50%);
+}
