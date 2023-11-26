@@ -15,8 +15,8 @@
 }
 
 .quote-box {
-  width: 500px;
-  height: 300px;
+  width: 600px;
+  height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -60,7 +60,8 @@
 .author {
   position: absolute;
   right: 10%;
-  bottom: 15%;
+  bottom: 25%;
+  font-size: 12px;
   font-weight: 500;
 }
 
@@ -75,4 +76,50 @@
   left: -20px;
   background: #6457C6;
   transform: translateX(-50%);
+}
+
+.buttons {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  width: 100px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(23, 124, 229);
+}
+
+.new-quote-btn {
+  color: rgb(23, 124, 229);
+}
+
+.new-quote-btn:hover {
+  background-color: rgb(23, 124, 229);
+  color: white;
+}
+
+.facebook-btn {
+  background-color: rgb(23, 124, 229);
+  color: white;
+}
+
+.facebook-btn img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.facebook-btn:hover {
+  background-color: rgb(237, 237, 237);
+  color: rgb(23, 124, 229);
 }
