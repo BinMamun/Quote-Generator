@@ -5,7 +5,7 @@ const displayQuote = document.querySelector(".js-display-quote");
 const quoteAuthor = document.querySelector(".js-quote-author");
 
 facebookBtn.addEventListener("click", () => {
-  window.open(`http://facebook.com`, "_blank");
+  window.open(`https://www.facebook.com/`);
 })
 
 newQuoteBtn.addEventListener("click", () => {
